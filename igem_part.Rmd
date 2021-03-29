@@ -1,0 +1,27 @@
+---
+title: "igem_part"
+author: "JJ"
+date: '2021 3 29 '
+output: html_document
+---
+
+```{r}
+no <- c(1,2)
+team_name <- c("TU Kaiserlautern","Leiden")
+project_title <- c("Chlamy Yummy - Revolutionizing plastic degradation by introducing Chlamydonmonas reinhardtii as a eukaryotic secretion platform","Rapidemic: A novel modular point-of-care diagnostic tool for rapid edipemic response")
+project_year <- c(2019, 2020)
+wiki_page <- c("https://2019.igem.org/Team:TU_Kaiserslautern","https://2020.igem.org/Team:Leiden")
+
+igem_team <- data.frame(no, team_name, project_title, project_year, wiki_page)
+knitr::kable(igem_team)
+```
+
+```{r}
+no <- c(1,2,3,4,5)
+part_id <- c("BBa_K3002004","BBa_K3002005","BBa_K3002014","BBa_K3002029","BBa_K3002037")
+part_name <- c("Wildtype PETase for Chlamydomonas reinhardtii (Phytobrick)","Wildtype MHETase for Chlamydomonas reinhardtii Part 1 (Phytobrick)","Mutant PETase for Chlamydomonas reinhardtii (Phytobrick)","Wildtype MHETase for Chlamydomonas reinhardtii Part 2 (Phytobrick)","Wildtype MHETase for Chlamydomonas reinhardtii (Phytobrick)")
+part_type <- c("Coding","Coding","Coding","Coding","Coding")
+team_id <- c(1,1,1,1,1)
+igem_part <- data.frame (no, part_id, part_name, part_type, team_id)
+knitr::kable(igem_part)
+```
