@@ -17,11 +17,11 @@ knitr::kable(igem_team)
 ```
 
 ```{r}
-no <- c(1,2,3,4,5)
-part_id <- c("BBa_K3002004","BBa_K3002005","BBa_K3002014","BBa_K3002029","BBa_K3002037")
-part_name <- c("Wildtype PETase for Chlamydomonas reinhardtii (Phytobrick)","Wildtype MHETase for Chlamydomonas reinhardtii Part 1 (Phytobrick)","Mutant PETase for Chlamydomonas reinhardtii (Phytobrick)","Wildtype MHETase for Chlamydomonas reinhardtii Part 2 (Phytobrick)","Wildtype MHETase for Chlamydomonas reinhardtii (Phytobrick)")
-part_type <- c("Coding","Coding","Coding","Coding","Coding")
-team_id <- c(1,1,1,1,1)
+no <- c(1,2,3,4,5,6,7,8,9)
+part_id <- c("BBa_K3002004","BBa_K3002005","BBa_K3002014","BBa_K3002029","BBa_K3002037","BBa_K3002018","BBa_K3002028","BBa_K3002010","BBa_K3002017")
+part_name <- c("Wildtype PETase for Chlamydomonas reinhardtii (Phytobrick)","Wildtype MHETase for Chlamydomonas reinhardtii Part 1 (Phytobrick)","Mutant PETase for Chlamydomonas reinhardtii (Phytobrick)","Wildtype MHETase for Chlamydomonas reinhardtii Part 2 (Phytobrick)","Wildtype MHETase for Chlamydomonas reinhardtii (Phytobrick)","Sp20 8xHis tag for Chlamydomonas reinhardtii (Phytobrick)","6xHis tag for Chlamydomonas reinhardtii (Phytobrick)","Sp20 HA tag for Chlamydomonas reinhardtii (Phytobrick)","3xHA tag for Chlamydomonas reinhardtii (Phytobrick")
+part_type <- c("Coding","Coding","Coding","Coding","Coding","Tag","Tag","Tag","Tag")
+team_id <- c(1,1,1,1,1,1,1,1,1)
 igem_part <- data.frame (no, part_id, part_name, part_type, team_id)
 knitr::kable(igem_part)
 ```
