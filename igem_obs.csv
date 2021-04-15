@@ -1,0 +1,13 @@
+id,indc,conc,value,valunit,incubhr,incubtemp,device_id,link,concunit
+1,AHL,0.1,10,FLU,overnight,37 ℃,D0001,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA
+2,AHL,1,100,FLU,overnight,37 ℃,D0001,6,NA
+3,AHL,10,2e+05,FLU,overnight,37 ℃,D0001,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA
+4,AHL,100,3e+05,FLU,overnight,37 ℃,D0001,6,NA
+5,AHL,500,4e+05,FLU,overnight,37 ℃,D0001,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA
+6,AHL,1000,350000,FLU,overnight,37 ℃,D0001,6,NA
+1,HSL,0,10,fluorescence(a.u.),10 hours,37 ℃,D0001,https://2020.igem.org/Team:OUC-China/Results,mg/mL
+2,HSL,0.001,30,fluorescence(a.u.),10 hours,37 ℃,D0001,6,mg/mL
+3,HSL,0.002,130,fluorescence(a.u.),10 hours,37 ℃,D0001,https://2020.igem.org/Team:OUC-China/Results,mg/mL
+4,HSL,0.01,300,fluorescence(a.u.),10 hours,37 ℃,D0001,6,mg/mL
+5,HSL,0.1,400,fluorescence(a.u.),10 hours,37 ℃,D0001,https://2020.igem.org/Team:OUC-China/Results,mg/mL
+6,HSL,1,380,fluorescence(a.u.),10 hours,37 ℃,D0001,6,mg/mL

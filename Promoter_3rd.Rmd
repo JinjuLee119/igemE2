@@ -21,8 +21,8 @@ igem_team2 <- data.frame(id = "1",
              year = "2020",
              wiki = "https://2020.igem.org/Team:OUC-China")
 
-bind_rows(igem_team1, igem_team2)
-
+igem_team <- bind_rows(igem_team1, igem_team2)
+igem_team
 ```
 
 ![Gene circuit_iBowu-China](T--iBowu-China--Character-c0062-fig1.png "Gene circuit_iBowu-China"){width="474"}
@@ -95,8 +95,6 @@ igem_promoter <- igem_part %>%
   left_join(igem_team1, by="team_name") %>%
   left_join(igem_obs_2, by="device_id")
 
-knitr::kable(igem_promoter)
-
 plot_data <- igem_promoter %>%
   filter(BBid=="BBa_R0062") %>%
   select(indc, conc, value) %>%
@@ -109,7 +107,7 @@ ggplot(plot_data, aes(x=conc, y=value, fill=conc))+
 
 
 # OUC-China
-# IMPLY Gate
+## IMPLY Gate
 
 ```{r}
 id <- 1:2
@@ -139,17 +137,15 @@ incubtemp <- rep("37 ℃", length(id))
 device_id <- rep("D0001", length(id))
 link <- c("https://2020.igem.org/Team:OUC-China/Results",length(id))
 
-igem_obs <- data.frame(id, indc, conc, concunit, value, valunit, incubhr, incubtemp, device_id, link)
-knitr::kable(igem_obs)
+igem_obs_3 <- data.frame(id, indc, conc, concunit, value, valunit, incubhr, incubtemp, device_id, link)
+knitr::kable(igem_obs_3)
 ```
 
 ```{r}
 library(tidyverse)
 igem_promoter2 <- igem_part2 %>%
   left_join(igem_team2, by="team_name") %>%
-  left_join(igem_obs, by="device_id")
-
-knitr::kable(igem_promoter2)
+  left_join(igem_obs_3, by="device_id")
 
 plot_data <- igem_promoter2 %>%
   filter(BBid=="BBa_R0062") %>%
@@ -160,3 +156,17 @@ ggplot(plot_data, aes(x=conc, y=value, fill=conc))+
   geom_bar(stat="identity", position=position_dodge(width=0.5), width=0.4)+
   theme_bw()
 ```
+```{r}
+write.table(igem_team,"igem_team.csv",quote=F,sep=",",row.names=FALSE)
+?write.csv
+
+igem_part3 <- bind_rows(igem_part, igem_part2)
+igem_obs <- bind_rows(igem_obs_2,igem_obs_3)
+
+write.table(igem_part3,"igem_part.csv",quote=F,sep=",",row.names=FALSE)
+?write.csv
+
+write.table(igem_obs,"igem_obs.csv",quote=F,sep=",",row.names=FALSE)
+?write.csv
+```
+

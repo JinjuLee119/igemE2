@@ -1,0 +1,27 @@
+---
+title: "Untitled"
+author: "JJ"
+date: '2021 4 15 '
+output: html_document
+---
+
+```{r}
+igem_team <- read.csv("igem_promoter.csv")
+igem_team
+```
+
+```{r}
+library(readxl)
+
+igem_team <- read_excel("igem_promoters.xlsx",sheet=1,skip=0,col_names=T)
+
+igem_part <- read_excel("igem_promoters.xlsx",sheet=2,skip=0,col_names=T)
+
+igem_obs <- read_excel("igem_promoters.xlsx",sheet=3,skip=0,col_names=T)
+
+knitr::kable(igem_team)
+knitr::kable(igem_part)
+knitr::kable(igem_obs)
+
+```
+

@@ -1,0 +1,10 @@
+id,BBid,type,link,backbone,device_id,team_name,user
+1,BBa_J23101,promoter,http://parts.igem.org/Part:BBa_J23101,PSB3K3,D0001,iBowu-China,JinjuLee119
+2,BBa_B0034,RBS,http://parts.igem.org/Part:BBa_B0034,PSB3K3,D0001,iBowu-China,JinjuLee119
+3,BBa_C0062,regulatory,http://parts.igem.org/Part:BBa_C0062,PSB3K3,D0001,iBowu-China,JinjuLee119
+4,BBa_B0015,terminator,http://parts.igem.org/Part:BBa_B0015,PSB3K3,D0001,iBowu-China,JinjuLee119
+5,BBa_R0062,promoter,http://parts.igem.org/Part:BBa_R0062,PSB3K3,D0001,iBowu-China,JinjuLee119
+6,BBa_I732017,coding,http://parts.igem.org/Part:BBa_I732017,PSB3K3,D0001,iBowu-China,JinjuLee119
+7,BBa_B0015,terminator,http://parts.igem.org/Part:BBa_B0015,PSB3K3,D0001,iBowu-China,JinjuLee119
+1,BBa_R0062,Regulatory,http://parts.igem.org/Part:BBa_R0062,-,D0001,OUC-China,JinjuLee119
+2,BBa_K3328031,Reporter,http://parts.igem.org/Part:BBa_K3328031,-,D0001,OUC-China,JinjuLee119
