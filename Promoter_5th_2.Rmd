@@ -1,0 +1,20 @@
+---
+title: "Untitled"
+author: "JJ"
+date: '2021 4 22 '
+output: html_document
+---
+
+```{r}
+library(readxl)
+
+destdir <- "download/promoters/"
+
+igem_team1 <- read_excel("download/promoters/igem_promoters.xlsx",sheet=1, skip=0, col_names=T)
+igem_part1 <- read_excel("download/promoters/igem_promoters.xlsx",sheet=2, skip=0, col_names=T)
+igem_obs1 <- read_excel("download/promoters/igem_promoters.xlsx",sheet=3, skip=0, col_names=T)
+
+knitr::kable(igem_team1)
+knitr::kable(igem_part1)
+knitr::kable(igem_obs1)
+```

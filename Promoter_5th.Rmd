@@ -68,9 +68,11 @@ write.csv(igem_obs,"igem_obs2.csv",quote=F,row.names=F)
 ```
 
 ```{r}
-igem_team1 <- read_excel("igem_promoters.xlsx",sheet=1, skip=0, col_names=T)
-igem_part1 <- read_excel("igem_promoters.xlsx",sheet=2, skip=0, col_names=T)
-igem_obs1 <- read_excel("igem_promoters.xlsx",sheet=3, skip=0, col_names=T)
+destdir <- "download/promoters/"
+
+igem_team1 <- read_excel("download/promoters/igem_promoters.xlsx",sheet=1, skip=0, col_names=T)
+igem_part1 <- read_excel("download/promoters/igem_promoters.xlsx",sheet=2, skip=0, col_names=T)
+igem_obs1 <- read_excel("download/promoters/igem_promoters.xlsx",sheet=3, skip=0, col_names=T)
 
 knitr::kable(igem_team1)
 knitr::kable(igem_part1)
