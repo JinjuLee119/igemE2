@@ -12,4 +12,4 @@ This is readme markdown file
 
 [Promoter_5th](Promoter_5th_2.html)
 
-[igem_promoters](igem_promoters.xlsx)
+[igem_promoters](download/promoters/igem_promoters.xlsx)
