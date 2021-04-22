@@ -1,0 +1,66 @@
+id,indc,conc,value,valunit,incubhr,incubtemp,device_id,link,concunit,strain
+1,AHL,0.1,10,FLU,overnight,37 ℃,D0001,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA,NA
+2,AHL,1,100,FLU,overnight,37 ℃,D0001,https://2020.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA,NA
+3,AHL,10,2e+05,FLU,overnight,37 ℃,D0001,https://2021.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA,NA
+4,AHL,100,3e+05,FLU,overnight,37 ℃,D0001,https://2022.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA,NA
+5,AHL,500,4e+05,FLU,overnight,37 ℃,D0001,https://2023.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA,NA
+6,AHL,1000,350000,FLU,overnight,37 ℃,D0001,https://2024.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA,NA
+1,HSL,0,10,fluorescence(a.u.),10 hours,37 ℃,D0002,https://2020.igem.org/Team:OUC-China/Results,mg/mL,NA
+2,HSL,0.001,30,fluorescence(a.u.),10 hours,37 ℃,D0002,https://2021.igem.org/Team:OUC-China/Results,mg/mL,NA
+3,HSL,0.002,130,fluorescence(a.u.),10 hours,37 ℃,D0002,https://2022.igem.org/Team:OUC-China/Results,mg/mL,NA
+4,HSL,0.01,300,fluorescence(a.u.),10 hours,37 ℃,D0002,https://2023.igem.org/Team:OUC-China/Results,mg/mL,NA
+5,HSL,0.1,400,fluorescence(a.u.),10 hours,37 ℃,D0002,https://2024.igem.org/Team:OUC-China/Results,mg/mL,NA
+6,HSL,1,380,fluorescence(a.u.),10 hours,37 ℃,D0002,https://2025.igem.org/Team:OUC-China/Results,mg/mL,NA
+1,IPTG,0,4.5,Relative fluorescence_RFP,O/N,37,D0001,https://https://2019.igem.org/Team:Aboa/Contribution,mM,E. coli
+2,IPTG,0,1.2,Relative fluorescence_GFP,O/N,37,D0001,https://https://2019.igem.org/Team:Aboa/Contribution,mM,E. coli
+3,IPTG,0.5,4.2,Relative fluorescence_RFP,O/N,37,D0001,https://https://2019.igem.org/Team:Aboa/Contribution,mM,E. coli
+4,IPTG,0.5,1.4,Relative fluorescence_GFP,O/N,37,D0001,https://https://2019.igem.org/Team:Aboa/Contribution,mM,E. coli
+5,IPTG,1,3.9,Relative fluorescence_RFP,O/N,37,D0001,https://https://2019.igem.org/Team:Aboa/Contribution,mM,E. coli
+6,IPTG,1,1.4,Relative fluorescence_GFP,O/N,37,D0001,https://https://2019.igem.org/Team:Aboa/Contribution,mM,E. coli
+7,IPTG,0,5000,Fluorescence,NA,NA,D0001,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,mM,E. coli
+8,IPTG,10,15000,Fluorescence,NA,NA,D0001,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,mM,E. coli
+9,IPTG,0,15000,Fluorescence,NA,NA,D0001,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,mM,S. typhi
+10,IPTG,10,15000,Fluorescence,NA,NA,D0001,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,mM,S. typhi
+11,NA,NA,7,RQ/gap,O/N,37,D0001,https://2019.igem.org/Team:Stuttgart/Contribution,NA,E. coli MG1655
+1,AHL,0.1,10,FLU,overnight,37 ℃,D0001,https://2019.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA,NA
+2,AHL,1,100,FLU,overnight,37 ℃,D0001,https://2020.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA,NA
+3,AHL,10,2e+05,FLU,overnight,37 ℃,D0001,https://2021.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA,NA
+4,AHL,100,3e+05,FLU,overnight,37 ℃,D0001,https://2022.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA,NA
+5,AHL,500,4e+05,FLU,overnight,37 ℃,D0001,https://2023.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA,NA
+6,AHL,1000,350000,FLU,overnight,37 ℃,D0001,https://2024.igem.org/Team:iBowu-China/Demonstrate#ResultCellFree,NA,NA
+1,HSL,0,10,fluorescence(a.u.),10 hours,37 ℃,D0002,https://2020.igem.org/Team:OUC-China/Results,mg/mL,NA
+2,HSL,0.001,30,fluorescence(a.u.),10 hours,37 ℃,D0002,https://2021.igem.org/Team:OUC-China/Results,mg/mL,NA
+3,HSL,0.002,130,fluorescence(a.u.),10 hours,37 ℃,D0002,https://2022.igem.org/Team:OUC-China/Results,mg/mL,NA
+4,HSL,0.01,300,fluorescence(a.u.),10 hours,37 ℃,D0002,https://2023.igem.org/Team:OUC-China/Results,mg/mL,NA
+5,HSL,0.1,400,fluorescence(a.u.),10 hours,37 ℃,D0002,https://2024.igem.org/Team:OUC-China/Results,mg/mL,NA
+6,HSL,1,380,fluorescence(a.u.),10 hours,37 ℃,D0002,https://2025.igem.org/Team:OUC-China/Results,mg/mL,NA
+1,IPTG,0,4.5,Relative fluorescence_RFP,O/N,37,D0001,https://https://2019.igem.org/Team:Aboa/Contribution,mM,E. coli
+2,IPTG,0,1.2,Relative fluorescence_GFP,O/N,37,D0001,https://https://2019.igem.org/Team:Aboa/Contribution,mM,E. coli
+3,IPTG,0.5,4.2,Relative fluorescence_RFP,O/N,37,D0001,https://https://2019.igem.org/Team:Aboa/Contribution,mM,E. coli
+4,IPTG,0.5,1.4,Relative fluorescence_GFP,O/N,37,D0001,https://https://2019.igem.org/Team:Aboa/Contribution,mM,E. coli
+5,IPTG,1,3.9,Relative fluorescence_RFP,O/N,37,D0001,https://https://2019.igem.org/Team:Aboa/Contribution,mM,E. coli
+6,IPTG,1,1.4,Relative fluorescence_GFP,O/N,37,D0001,https://https://2019.igem.org/Team:Aboa/Contribution,mM,E. coli
+7,IPTG,0,5000,Fluorescence,NA,NA,D0001,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,mM,E. coli
+8,IPTG,10,15000,Fluorescence,NA,NA,D0001,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,mM,E. coli
+9,IPTG,0,15000,Fluorescence,NA,NA,D0001,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,mM,S. typhi
+10,IPTG,10,15000,Fluorescence,NA,NA,D0001,https://2019.igem.org/Team:Hong_Kong_HKU/Characterization,mM,S. typhi
+11,NA,NA,7,RQ/gap,O/N,37,D0001,https://2019.igem.org/Team:Stuttgart/Contribution,NA,E. coli MG1655
+1,-,NA,0.06,uM Fluorescein/OD,6,37,D0001,http://parts.igem.org/Part:BBa_K2715119,-,E. coli
+2,-,NA,60,Fluorescence(a.u.),NA,25,D0002,http://parts.igem.org/Part:BBa_K2969050,-,-
+2,-,NA,65,Fluorescence(a.u.),NA,30,D0002,http://parts.igem.org/Part:BBa_K2969050,-,-
+2,-,NA,75,Fluorescence(a.u.),NA,34,D0002,http://parts.igem.org/Part:BBa_K2969050,-,-
+2,-,NA,85,Fluorescence(a.u.),NA,37,D0002,http://parts.igem.org/Part:BBa_K2969050,-,-
+2,-,NA,90,Fluorescence(a.u.),NA,40,D0002,http://parts.igem.org/Part:BBa_K2969050,-,-
+2,-,NA,100,Fluorescence(a.u.),NA,42,D0002,http://parts.igem.org/Part:BBa_K2969050,-,-
+3,-,NA,900,-,NA,NA,D0003,http://parts.igem.org/Part:BBa_K3440003,-,-
+1,BBa_J23101,NA,950,Fluorescence,8,NA,D0001,http://parts.igem.org/Part:BBa_J23101,5,NA
+2,BBa_J23101,NA,1350,Fluorescence,8,NA,D0001,http://parts.igem.org/Part:BBa_J23101,7,NA
+3,BBa_J23105,NA,10,Fluorescence,8,NA,D0001,http://parts.igem.org/Part:BBa_J23101,5,NA
+4,BBa_J23105,NA,20,Fluorescence,8,NA,D0001,http://parts.igem.org/Part:BBa_J23101,7,NA
+5,BBa_J23101,NA,500,Fluorescence,NA,NA,D0001,http://parts.igem.org/Part:BBa_J23101,NA,NA
+6,BBa_J23101,NA,1000,Fluorescence,NA,NA,D0001,http://parts.igem.org/Part:BBa_J23101,NA,NA
+7,BBa_J23105,NA,50,Fluorescence,NA,NA,D0001,http://parts.igem.org/Part:BBa_J23101,NA,NA
+8,BBa_J23105,NA,100,Fluorescence,NA,NA,D0001,http://parts.igem.org/Part:BBa_J23101,NA,NA
+9,R0051,NA,195.6,Fluorescence,Overnight,37℃,NA,http://parts.igem.org/Part:BBa_BBa_R0051,NA,NA
+10,J04450,NA,47,Fluorescence,Overnight,37℃,NA,http://parts.igem.org/Part:BBa_BBa_R0051,NA,NA
+11,WT,NA,1,Fluorescence,Overnight,37℃,NA,http://parts.igem.org/Part:BBa_BBa_R0051,NA,NA

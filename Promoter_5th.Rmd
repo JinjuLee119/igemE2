@@ -1,0 +1,79 @@
+---
+title: "Untitled"
+author: "JJ"
+date: '2021 4 19 '
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(readxl)
+
+destdir <- "download/promoters/"
+
+dir.create("download")
+dir.create("download/promoters")
+
+download.file("https://github.com/TH-Kim310/igemE/raw/main/%EC%97%91%EC%85%80.xlsx","download/promoters/th-kim310.xlsx")
+download.file("https://github.com/jinjulee119/igemE2/raw/main/igem_promoters.xlsx","download/promoters/JinjuLee119.xlsx")
+download.file("https://github.com/aputron/igemE/raw/main/igem_promoters.xlsx","download/promoters/aputron.xlsx")
+download.file("https://github.com/gpemelianov/igemE/raw/main/igem_promoter.xlsx","download/promoters/gpemelianov.xlsx")
+download.file("https://github.com/Yoo-BH/igemE/raw/main/igem_promoters.xlsx","download/promoters/yoo-bh.xlsx")
+download.file("https://github.com/treebird19/igemE/raw/main/igem_promoters.xlsx","download/promoters/treebird19.xlsx")
+
+
+setwd("download/promoters/")
+getwd()
+
+excel_files <- dir("download/promoters")
+excel_file_names <- paste("download/promoters/", excel_files, sep="")
+igem_team1 <- read_excel(excel_file_names[1], sheet=1, skip = 0, col_names=T)
+igem_team2 <- read_excel(excel_file_names[2], sheet=1, skip = 0, col_names=T)
+igem_team3 <- read_excel(excel_file_names[3], sheet=1, skip = 0, col_names=T)
+igem_team4 <- read_excel(excel_file_names[4], sheet=1, skip = 0, col_names=T)
+igem_team5 <- read_excel(excel_file_names[5], sheet=1, skip = 0, col_names=T)
+igem_team6 <- read_excel(excel_file_names[6], sheet=1, skip = 0, col_names=T)
+igem_team <- bind_rows(igem_team1, igem_team2, igem_team3, igem_team4, igem_team5, igem_team6)
+
+write.csv(igem_team, "igem_team2.csv",quote=F, row.names=F)
+```
+
+
+```{r}
+igem_part1 <- read_excel(excel_file_names[1], sheet=2, skip = 0, col_names=T)
+igem_part2 <- read_excel(excel_file_names[2], sheet=2, skip = 0, col_names=T)
+igem_part3 <- read_excel(excel_file_names[3], sheet=2, skip = 0, col_names=T)
+igem_part4 <- read_excel(excel_file_names[4], sheet=2, skip = 0, col_names=T)
+igem_part5 <- read_excel(excel_file_names[5], sheet=2, skip = 0, col_names=T)
+igem_part6 <- read_excel(excel_file_names[6], sheet=2, skip = 0, col_names=T)
+
+igem_part <- bind_rows(igem_part1, igem_part2, igem_part3, igem_part4, igem_part5, igem_part6)
+
+igem_obs1 <- read_excel(excel_file_names[1], sheet=3, skip = 0, col_names=T)
+igem_obs2 <- read_excel(excel_file_names[2], sheet=3, skip = 0, col_names=T)
+igem_obs2$conc <- as.numeric(igem_obs2$conc, na.omit=F)
+igem_obs3 <- read_excel(excel_file_names[3], sheet=3, skip = 0, col_names=T)
+igem_obs4 <- read_excel(excel_file_names[4], sheet=3, skip = 0, col_names=T)
+igem_obs4$conc <- as.numeric(igem_obs4$conc, na.omit=F)
+igem_obs5 <- read_excel(excel_file_names[5], sheet=3, skip = 0, col_names=T)
+igem_obs5$conc <- as.numeric(igem_obs5$conc, na.omit=F)
+igem_obs6 <- read_excel(excel_file_names[6], sheet=3, skip = 0, col_names=T)
+igem_obs6$conc <- as.numeric(igem_obs6$conc, na.omit=F)
+
+igem_obs <- bind_rows(igem_obs1, igem_obs2, igem_obs3, igem_obs4, igem_obs5, igem_obs6)
+
+write.csv(igem_part,"igem_part2.csv",quote=F,row.names=F)
+write.csv(igem_obs,"igem_obs2.csv",quote=F,row.names=F)
+
+```
+
+```{r}
+igem_team1 <- read_excel("igem_promoters.xlsx",sheet=1, skip=0, col_names=T)
+igem_part1 <- read_excel("igem_promoters.xlsx",sheet=2, skip=0, col_names=T)
+igem_obs1 <- read_excel("igem_promoters.xlsx",sheet=3, skip=0, col_names=T)
+
+knitr::kable(igem_team1)
+knitr::kable(igem_part1)
+knitr::kable(igem_obs1)
+```
+
